@@ -8,6 +8,38 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .proj-category { margin-top: 3rem; }
+    .proj-category-label {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+      color: var(--fg, #f0f0f0);
+      margin-bottom: 0.35rem;
+    }
+    .proj-category-icon { font-size: 1.1rem; }
+    .proj-category-sub {
+      font-size: 0.88rem;
+      color: var(--fg-muted, #9ca3af);
+      margin-bottom: 1.5rem;
+    }
+    .proj-subcategory { margin-top: 2rem; }
+    .proj-subcategory-label {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent, #6366f1);
+      border: 1px solid var(--accent, #6366f1);
+      border-radius: 4px;
+      padding: 0.2rem 0.7rem;
+      margin-bottom: 1.2rem;
+    }
+  </style>
 </head>
 <body>
 
@@ -29,13 +61,13 @@
     <div class="hero-content">
       <div class="hero-badge">
         <span class="badge-dot"></span>
-        Product Manager · AI Builder · Fintech
+        Product Manager · AI Builder · Fintech & Growth
       </div>
       <h1 class="hero-title">
         Hi, I'm <span class="accent">Shailey Kadam</span>
       </h1>
       <p class="hero-sub">
-        I build AI-powered products for financial services — turning compliance complexity and fraud risk into clean, intelligent workflows.
+        I build AI-powered fintech products that move the needle — from loan origination and underwriting to repayment growth, user engagement, and 0→1 AI product launches.
       </p>
       <div class="hero-cta">
         <a href="#projects" class="btn btn-primary">View Projects</a>
@@ -48,15 +80,15 @@
           <span class="dot red"></span>
           <span class="dot yellow"></span>
           <span class="dot green"></span>
-          <span class="terminal-title">payslip-analyzer.sh</span>
+          <span class="terminal-title">growth-dashboard.sh</span>
         </div>
         <div class="terminal-body">
-          <p><span class="t-prompt">$</span> analyzing payslip...</p>
-          <p><span class="t-key">confidence_score</span><span class="t-colon">:</span> <span class="t-val">87%</span></p>
-          <p><span class="t-key">pf_valid</span><span class="t-colon">:</span> <span class="t-val-green">true</span></p>
-          <p><span class="t-key">pt_state</span><span class="t-colon">:</span> <span class="t-str">"Karnataka"</span></p>
-          <p><span class="t-key">tampering_flags</span><span class="t-colon">:</span> <span class="t-val-green">[]</span></p>
-          <p><span class="t-key">verdict</span><span class="t-colon">:</span> <span class="t-str">"AUTHENTIC"</span></p>
+          <p><span class="t-prompt">$</span> running repayment analysis...</p>
+          <p><span class="t-key">repayment_uplift</span><span class="t-colon">:</span> <span class="t-val-green">+14%</span></p>
+          <p><span class="t-key">dpd1_reduction</span><span class="t-colon">:</span> <span class="t-val-green">-22%</span></p>
+          <p><span class="t-key">cl_utilization</span><span class="t-colon">:</span> <span class="t-val-green">+60%</span></p>
+          <p><span class="t-key">ai_adoption</span><span class="t-colon">:</span> <span class="t-str">"80%"</span></p>
+          <p><span class="t-key">status</span><span class="t-colon">:</span> <span class="t-val-green">"GROWING"</span></p>
           <p class="t-blink"><span class="t-prompt">$</span> <span class="cursor">▌</span></p>
         </div>
       </div>
@@ -70,31 +102,31 @@
       <div class="about-grid">
         <div class="about-text">
           <p>
-            I'm a Product Manager working at the intersection of <strong>AI</strong>, <strong>fintech</strong>, and <strong>regulatory compliance</strong>. My focus is on building tools that make high-stakes decisions — loan verification, document fraud detection, regulatory tracking — faster, smarter, and auditable.
+            I'm a Product Manager with <strong>7+ years</strong> building fintech products at the intersection of <strong>AI</strong>, <strong>lending</strong>, and <strong>growth</strong>. I've owned the full customer lifecycle — from loan origination and underwriting to repayment, collections, and engagement — shipping products that move real business metrics.
           </p>
           <p>
-            What sets me apart: I don't just define requirements. I <em>build</em>. From local on-device AI prototypes to full-stack compliance dashboards, I go hands-on with code to sharpen product intuition and de-risk engineering bets before they're committed to sprints.
+            What sets me apart: I don't just define requirements. I <em>build</em>. From 0→1 AI product launches to full-stack lending dashboards, I go hands-on to sharpen product intuition and de-risk engineering bets before they're committed to sprints. I've founded and led AI-focused business teams, shipped voice and quiz AI products, and driven double-digit growth across repayment, engagement, and revenue.
           </p>
           <p>
-            I'm particularly excited about the shift to <strong>local AI</strong> — where sensitive financial data never leaves the device, privacy is structural rather than promised, and inference costs go to zero.
+            I'm particularly excited about <strong>AI that changes user behaviour</strong> — credit nudges that improve repayment, smart onboarding that reduces drop-off, and personalization that turns inactive users into engaged ones.
           </p>
         </div>
         <div class="about-stats">
           <div class="stat-card">
-            <div class="stat-num">21</div>
-            <div class="stat-label">Indian states with PT rules encoded</div>
+            <div class="stat-num">+14%</div>
+            <div class="stat-label">Repayment growth via flexible repayment & funnel improvements</div>
           </div>
           <div class="stat-card">
-            <div class="stat-num">11</div>
-            <div class="stat-label">Statutory tamper checks in payslip AI</div>
+            <div class="stat-num">+60%</div>
+            <div class="stat-label">CL utilization through targeted offers for inactive users</div>
           </div>
           <div class="stat-card">
-            <div class="stat-num">100%</div>
-            <div class="stat-label">Local inference — zero cloud API calls</div>
+            <div class="stat-num">-45%</div>
+            <div class="stat-label">Manual approver dependency via AI-driven workflow automation</div>
           </div>
           <div class="stat-card">
-            <div class="stat-num">AI-first</div>
-            <div class="stat-label">Product philosophy: ship AI-native, not AI-bolted</div>
+            <div class="stat-num">7+</div>
+            <div class="stat-label">Years leading fintech products across LOS, LMS, and AI</div>
           </div>
         </div>
       </div>
@@ -133,13 +165,13 @@
 
         <div class="skill-group">
           <div class="skill-icon">🏦</div>
-          <h3>Fintech & Compliance</h3>
+          <h3>Lending & Growth</h3>
           <ul>
-            <li>Indian payroll & statutory rules (PF, PT, ESI)</li>
-            <li>RBI circular tracking & interpretation</li>
-            <li>Document fraud detection</li>
-            <li>KYC / lending workflows</li>
-            <li>Audit trails & regulatory reporting</li>
+            <li>Loan Origination & Management (LOS / LMS)</li>
+            <li>Repayment, collections & DPD reduction</li>
+            <li>Underwriting & credit risk frameworks</li>
+            <li>Revenue growth, monetization & cross-sell</li>
+            <li>KYC, onboarding & drop-off optimization</li>
           </ul>
         </div>
 
@@ -163,104 +195,270 @@
   <section class="section" id="projects">
     <div class="container">
       <h2 class="section-title">Projects</h2>
-      <p class="section-sub">Hands-on AI products built to solve real fintech problems.</p>
+      <p class="section-sub">Self-built prototypes and selected company work — across lending, AI, and growth.</p>
 
-      <div class="projects-grid">
+      <!-- ── PERSONAL PROJECTS ── -->
+      <div class="proj-category">
+        <div class="proj-category-label">
+          <span class="proj-category-icon">🛠️</span>
+          Personal Projects
+        </div>
+        <p class="proj-category-sub">Built independently — fully designed, scoped, and shipped by me.</p>
+        <div class="projects-grid">
 
-        <!-- Project 1: Payslip Analyzer -->
-        <div class="project-card featured">
-          <div class="project-header">
-            <div class="project-badge">Featured · AI · Fintech</div>
-            <div class="project-status live">● Live Prototype</div>
-          </div>
-          <h3 class="project-title">AI Payslip Analyzer</h3>
-          <p class="project-desc">
-            A fully local, privacy-first payslip verification tool for NBFCs and lending teams. Detects tampered payslips using a combination of on-device AI vision (Gemma 4 via Ollama), OCR (Tesseract.js), and rule-based statutory checks — no cloud API, no data leaving the device.
-          </p>
-          <div class="project-highlights">
-            <div class="highlight">
-              <strong>Problem:</strong> Credit analysts waste hours manually checking payslips for PF/PT compliance violations and numerical tampering. Fraud slips through.
+          <!-- AI Payslip Analyzer -->
+          <div class="project-card featured">
+            <div class="project-header">
+              <div class="project-badge">Featured · Local AI · Fintech</div>
+              <div class="project-status live">● Live Prototype</div>
             </div>
-            <div class="highlight">
-              <strong>Solution:</strong> 11-point statutory check engine covering Indian tax law across 21 states. Confidence score 0–100 flags borderline cases for human review.
+            <h3 class="project-title">AI Payslip Analyzer</h3>
+            <p class="project-desc">
+              A fully local, privacy-first payslip verification tool for NBFCs and lending teams. Uses on-device AI vision (Gemma 4 via Ollama) and OCR to automate income verification — no data leaves the device, zero cloud API calls.
+            </p>
+            <div class="project-highlights">
+              <div class="highlight">
+                <strong>Problem:</strong> Credit analysts manually review payslips for income accuracy and statutory validity, slowing loan TAT and introducing human error.
+              </div>
+              <div class="highlight">
+                <strong>Solution:</strong> 11-point automated verification engine with a confidence score (0–100) that flags borderline cases for human review. Covers PF/PT/ESI rules across 21 states.
+              </div>
+              <div class="highlight">
+                <strong>AI Stack:</strong> Gemma 4 vision model → Tesseract OCR fallback → rule engine. 100% local inference.
+              </div>
             </div>
-            <div class="highlight">
-              <strong>AI Stack:</strong> Gemma 4 vision model → Tesseract OCR fallback → regex rule engine. Priority-ordered for accuracy.
+            <div class="project-tags">
+              <span class="tag">Ollama</span>
+              <span class="tag">Gemma 4</span>
+              <span class="tag">Tesseract.js</span>
+              <span class="tag">PDF.js</span>
+              <span class="tag">Local AI</span>
+              <span class="tag">Node.js</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/shaileykadam/payslip-analyzer" class="project-link" target="_blank" rel="noopener">GitHub →</a>
             </div>
           </div>
-          <div class="project-tags">
-            <span class="tag">Ollama</span>
-            <span class="tag">Gemma 4</span>
-            <span class="tag">Tesseract.js</span>
-            <span class="tag">PDF.js</span>
-            <span class="tag">Local AI</span>
-            <span class="tag">Fintech</span>
-            <span class="tag">Fraud Detection</span>
+
+          <!-- RBI Compliance Intelligence Platform -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-badge">AI · RegTech · Full-Stack</div>
+              <div class="project-status live">● Live Prototype</div>
+            </div>
+            <h3 class="project-title">RBI Compliance Intelligence Platform</h3>
+            <p class="project-desc">
+              A local full-stack web app that automatically scrapes RBI circulars, uses Claude AI to extract actionable items, and surfaces them in a prioritized dashboard — turning dense regulatory PDFs into a clear, trackable to-do list.
+            </p>
+            <div class="project-highlights">
+              <div class="highlight">
+                <strong>Problem:</strong> Compliance teams manually wade through dozens of RBI circulars per quarter, often missing action deadlines buried in regulatory language.
+              </div>
+              <div class="highlight">
+                <strong>Solution:</strong> Automated scraper + Claude AI extracts "what must we do and by when." Dashboard tracks status: Pending → Under Review → Resolved.
+              </div>
+              <div class="highlight">
+                <strong>Stack:</strong> Claude API · Node.js · React · SQLite · Cron scheduling.
+              </div>
+            </div>
+            <div class="project-tags">
+              <span class="tag">Claude AI</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">React</span>
+              <span class="tag">SQLite</span>
+              <span class="tag">RegTech</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/shaileykadam/rbi-compliance-poc" class="project-link" target="_blank" rel="noopener">GitHub →</a>
+            </div>
           </div>
-          <div class="project-links">
-            <a href="https://github.com/shaileykadam/payslip-analyzer" class="project-link" target="_blank" rel="noopener">GitHub →</a>
+
+        </div>
+      </div>
+
+      <!-- ── COMPANY WORK ── -->
+      <div class="proj-category">
+        <div class="proj-category-label">
+          <span class="proj-category-icon">🏢</span>
+          Company Work
+        </div>
+        <p class="proj-category-sub">Selected highlights from products shipped at mPokket and Jio.</p>
+
+        <!-- Lending -->
+        <div class="proj-subcategory">
+          <div class="proj-subcategory-label">Lending</div>
+          <div class="projects-grid">
+
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-badge">Repayment · Collections · DPD</div>
+                <div class="project-status live">● Shipped · mPokket</div>
+              </div>
+              <h3 class="project-title">Repayment Growth Charter</h3>
+              <p class="project-desc">
+                Owned end-to-end repayment strategy — flexible repayment, part-payments, autopay integration, and funnel optimization — to reduce delinquency and improve collection predictability at scale.
+              </p>
+              <div class="project-highlights">
+                <div class="highlight">
+                  <strong>Impact:</strong> +14% repayment improvement · -22% DPD1 reduction via Autopay & PDN optimization · improved portfolio repayment predictability.
+                </div>
+              </div>
+              <div class="project-tags">
+                <span class="tag">Repayment</span>
+                <span class="tag">Collections</span>
+                <span class="tag">Autopay</span>
+                <span class="tag">Funnel Optimization</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-badge">LOS · Underwriting · CL</div>
+                <div class="project-status live">● Shipped · mPokket</div>
+              </div>
+              <h3 class="project-title">Loan Origination & Underwriting Overhaul</h3>
+              <p class="project-desc">
+                Drove improvements across the full loan origination funnel — UI simplification, DB cleanup, risk-tiered underwriting framework, and targeted CL utilization offers for inactive users.
+              </p>
+              <div class="project-highlights">
+                <div class="highlight">
+                  <strong>Impact:</strong> +6% First Time Borrowers · -7% drop-off · -28% DPD via underwriting framework · +60% CL utilization · -8% churn among inactive users.
+                </div>
+              </div>
+              <div class="project-tags">
+                <span class="tag">LOS</span>
+                <span class="tag">Underwriting</span>
+                <span class="tag">CL Utilization</span>
+                <span class="tag">Risk</span>
+              </div>
+            </div>
+
           </div>
         </div>
 
-        <!-- Project 2: RBI Compliance -->
-        <div class="project-card">
-          <div class="project-header">
-            <div class="project-badge">AI · Compliance · RegTech</div>
-            <div class="project-status live">● Live Prototype</div>
-          </div>
-          <h3 class="project-title">RBI Compliance Intelligence Platform</h3>
-          <p class="project-desc">
-            A local full-stack web app that automatically scrapes RBI circulars, uses Claude AI to extract actionable compliance items, and surfaces them in a dashboard for review and status tracking — turning dense regulatory PDFs into a clear, prioritized to-do list.
-          </p>
-          <div class="project-highlights">
-            <div class="highlight">
-              <strong>Problem:</strong> Compliance teams manually wade through dozens of RBI circulars per quarter, often missing action deadlines buried in dense regulatory language.
+        <!-- AI -->
+        <div class="proj-subcategory">
+          <div class="proj-subcategory-label">AI</div>
+          <div class="projects-grid">
+
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-badge">AI · Personalization · Growth</div>
+                <div class="project-status live">● Shipped · mPokket</div>
+              </div>
+              <h3 class="project-title">AI Credit Navigator</h3>
+              <p class="project-desc">
+                Personalized AI credit insights product that surfaces tailored credit tips, repayment nudges, and eligibility guidance in-app — converting disengaged users into active subscribers.
+              </p>
+              <div class="project-highlights">
+                <div class="highlight">
+                  <strong>Impact:</strong> 80% feature adoption · 48% tip engagement rate · 12% uplift in paid subscriptions.
+                </div>
+              </div>
+              <div class="project-tags">
+                <span class="tag">AI Personalization</span>
+                <span class="tag">Credit</span>
+                <span class="tag">Subscriptions</span>
+                <span class="tag">Growth</span>
+              </div>
             </div>
-            <div class="highlight">
-              <strong>Solution:</strong> Automated scraper + Claude AI extracts "what must we do and by when" from each circular. Dashboard shows status: Pending, Under Review, Resolved.
+
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-badge">AI · Voice · Engagement</div>
+                <div class="project-status live">● Shipped · mPokket</div>
+              </div>
+              <h3 class="project-title">AI Products — Voice Interview & Quiz</h3>
+              <p class="project-desc">
+                Founded and led a new AI-focused business team. Launched two 0→1 AI products: a voice-based interview tool and an AI quiz product — both achieving exceptional engagement and repeat usage rates.
+              </p>
+              <div class="project-highlights">
+                <div class="highlight">
+                  <strong>Impact:</strong> Voice Interview — 72% completion rate, 57%+ repeat usage. AI Quiz — 95% completion rate, 90% repeat rate. Team delivered ~15%+ annual profits.
+                </div>
+              </div>
+              <div class="project-tags">
+                <span class="tag">Voice AI</span>
+                <span class="tag">0→1</span>
+                <span class="tag">Engagement</span>
+                <span class="tag">AI Leadership</span>
+              </div>
             </div>
-            <div class="highlight">
-              <strong>AI Stack:</strong> Claude Code CLI as AI engine. SQLite for persistence. Scheduled scraping (cron). Paste any RBI PDF URL for instant processing.
+
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-badge">AI · Automation · Ops</div>
+                <div class="project-status live">● Shipped · mPokket</div>
+              </div>
+              <h3 class="project-title">AI-Driven Workflow Automation</h3>
+              <p class="project-desc">
+                Led feasibility and rollout of AI-driven automation to eliminate manual approver bottlenecks in lending operations — scoped with human-in-loop escalation for edge cases.
+              </p>
+              <div class="project-highlights">
+                <div class="highlight">
+                  <strong>Impact:</strong> ~45% reduction in manual approver dependency · -27% onboarding overhead cost · +5% approval TAT improvement.
+                </div>
+              </div>
+              <div class="project-tags">
+                <span class="tag">Claude</span>
+                <span class="tag">AI Automation</span>
+                <span class="tag">LOS</span>
+                <span class="tag">Ops Efficiency</span>
+              </div>
             </div>
-          </div>
-          <div class="project-tags">
-            <span class="tag">Claude AI</span>
-            <span class="tag">Node.js</span>
-            <span class="tag">React</span>
-            <span class="tag">SQLite</span>
-            <span class="tag">RegTech</span>
-            <span class="tag">RBI</span>
-            <span class="tag">Compliance</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/shaileykadam/rbi-compliance-poc" class="project-link" target="_blank" rel="noopener">GitHub →</a>
+
           </div>
         </div>
 
-        <!-- Project 3: AI Doc Verification (mPokket) -->
-        <div class="project-card">
-          <div class="project-header">
-            <div class="project-badge">Product Strategy · AI · Lending</div>
-            <div class="project-status strategy">● Product Design</div>
-          </div>
-          <h3 class="project-title">AI Document Verification — Lending Platform</h3>
-          <p class="project-desc">
-            End-to-end product design for integrating AI-powered document verification into a consumer lending workflow. Covers payslip, bank statement, and KYC document analysis at scale, with a focus on reducing manual review SLA from 48 hours to under 5 minutes.
-          </p>
-          <div class="project-highlights">
-            <div class="highlight">
-              <strong>Scope:</strong> PRD, roadmap, technical feasibility, and go-to-market strategy for AI-native loan origination verification.
+        <!-- Others -->
+        <div class="proj-subcategory">
+          <div class="proj-subcategory-label">Others</div>
+          <div class="projects-grid">
+
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-badge">Insurance · Revenue · Cross-sell</div>
+                <div class="project-status live">● Shipped · mPokket</div>
+              </div>
+              <h3 class="project-title">Insurance Growth & Monetization</h3>
+              <p class="project-desc">
+                Drove insurance adoption and revenue through targeted cross-sell campaigns, funnel optimization, and strategic offer placement — turning an underperforming product into a high-growth revenue line.
+              </p>
+              <div class="project-highlights">
+                <div class="highlight">
+                  <strong>Impact:</strong> +120% adoption increase · 100% YoY revenue growth.
+                </div>
+              </div>
+              <div class="project-tags">
+                <span class="tag">Insurance</span>
+                <span class="tag">Cross-sell</span>
+                <span class="tag">Revenue Growth</span>
+                <span class="tag">Funnel</span>
+              </div>
             </div>
-            <div class="highlight">
-              <strong>Impact:</strong> Identified batch processing, audit log, and API integration as P0 requirements; projected 60% reduction in analyst review time.
+
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-badge">UX · Platform · Engagement</div>
+                <div class="project-status live">● Shipped · Jio</div>
+              </div>
+              <h3 class="project-title">JioGate — Guard & Resident App Revamp</h3>
+              <p class="project-desc">
+                Revamped the JioGate Guard and Resident apps with intuitive UI, simplified workflows, and faster guest entry — improving adoption, reducing churn, and increasing daily active users for a smart society management platform.
+              </p>
+              <div class="project-highlights">
+                <div class="highlight">
+                  <strong>Impact:</strong> +10% customer acquisition · -15% client churn · +40% guard adoption · +20% DAUs · +30% entry accuracy.
+                </div>
+              </div>
+              <div class="project-tags">
+                <span class="tag">UX</span>
+                <span class="tag">Mobile</span>
+                <span class="tag">Retention</span>
+                <span class="tag">Platform</span>
+              </div>
             </div>
-          </div>
-          <div class="project-tags">
-            <span class="tag">Product Strategy</span>
-            <span class="tag">PRD</span>
-            <span class="tag">Lending</span>
-            <span class="tag">KYC</span>
-            <span class="tag">AI Integration</span>
+
           </div>
         </div>
 
@@ -288,8 +486,8 @@
             <p>I build working prototypes before writing PRDs. Getting hands-on with the AI stack — prompts, confidence scores, edge cases — produces better product decisions than requirements written from a distance.</p>
           </div>
           <div class="philosophy-item">
-            <h4>Compliance as a Feature</h4>
-            <p>In fintech, regulatory requirements aren't friction — they're the product. The best tools make compliance invisible to the analyst while satisfying the regulator.</p>
+            <h4>Growth is the Product</h4>
+            <p>The best fintech products don't just work — they change behaviour. I obsess over metrics that matter: repayment rates, engagement depth, retention, and revenue. Features are hypotheses; outcomes are the measure.</p>
           </div>
         </div>
       </div>
@@ -303,7 +501,7 @@
         <h2 class="section-title">Get in Touch</h2>
         <p class="contact-sub">Interested in collaborating, discussing AI in fintech, or exploring product opportunities? I'd love to connect.</p>
         <div class="contact-links">
-          <a href="mailto:shailey.kadam6@gmail.com" class="contact-link">
+          <a href="mailto:kadamshailey@gmail.com" class="contact-link">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
             shailey.kadam6@gmail.com
           </a>
@@ -311,7 +509,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
             LinkedIn
           </a>
-          <a href="https://github.com/shaileykadam" class="contact-link" target="_blank" rel="noopener">
+          <a href="https://github.com/shaileyk" class="contact-link" target="_blank" rel="noopener">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
             GitHub
           </a>
